@@ -15,8 +15,14 @@
       embedded
       arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
     >
-      <a-marker type="pattern" url="pattern-fox_logo.patt">
-        <a-box position="0 0 0" rotation="0 45 0" color="#4CC3D9"></a-box>
+      <a-marker type="pattern" url="marker/pattern-fox_logo.patt">
+        <a-image
+          src="img/IWantYouForUSArmy.png"
+          position="0 0 0"
+          rotation="0 0 0"
+          scale="0.1 0.1 0.1"
+        >
+        </a-image>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
