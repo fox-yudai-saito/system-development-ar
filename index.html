@@ -16,14 +16,15 @@
       arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
     >
       <a-marker type="pattern" url="marker/pattern-fox_logo.patt">
-        <a-image
-          src="img/sdd_poster.png"
-          position="0 0 0"
-          rotation="-90 0 0"
-          scale="3.5 5"
-          link="href: https://github.com/fox-yudai-saito/system-development-ar; title: github-page; image: #sddivision;"
-        >
-        </a-image>
+        <a-link href="https://github.com/fox-yudai-saito/system-development-ar" title="github-page" image="#sddivision;">
+          <a-image
+            src="img/sdd_poster.png"
+            position="0 0 0"
+            rotation="-90 0 0"
+            scale="3.5 5"
+          >
+          </a-image>
+        </a-link>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
